@@ -86,7 +86,7 @@ public class FactorialCalculator implements Calculator {
 
     /**
      * @param number - number to calculate factorial
-     *               Calculates factorial by multiple threads and puts result to map.
+     *               Calculates 100 factorials per second by multiple threads and puts result to map.
      */
     private void submitCalculateFactorialTask(int number) {
         if (map.containsKey(number)) {
